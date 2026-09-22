@@ -154,18 +154,3 @@ Fallback when write tools are unavailable: give the user a pre-filled composer
 link, `https://community.dhis2.org/new-topic?category=<slug>&title=<urlencoded>&body=<urlencoded>`
 (for example `category=development%2Fchap`). Opening it saves the draft
 automatically.
-
-### Writing conventions for posts on the CoP
-
-- Audience is DHIS2 implementers and public-health users, not developers.
-  Describe user-facing changes and what they mean for the reader. Leave out
-  internal refactors, CI, and test changes.
-- Release announcements: one short intro stating which versions were released
-  and whether they must be upgraded together, a section per component with a
-  handful of bolded bullet headlines, an "Upgrading" section, and links to the
-  GitHub release notes.
-- Keep it short. When the user asks for shorter, aim for roughly half.
-- No emojis.
-- Use the product's own naming. For chap: write "chap" in lowercase and
-  "chap-core" for the server package, not "CHAP Core"; the DHIS2 app is the
-  "Modeling App".
